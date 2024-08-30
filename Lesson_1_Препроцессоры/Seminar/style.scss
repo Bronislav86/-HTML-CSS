@@ -1,0 +1,62 @@
+@import 'vars';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// стили для текста
+
+.container {
+  margin-left: calc(50% - $widthSite / 2);
+  margin-right: calc(50% - $widthSite / 2);
+  width: $widthSite;
+}
+
+@mixin center() {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+%fon-normal {
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+
+.text {
+  margin-bottom: 30px;
+}
+
+.text__colorText {
+  color: $colorText;
+}
+
+// стили для навигации
+
+.nav {
+  display: flex;
+  gap: $navGap;
+  margin: 30px;
+
+  &__link {
+    text-decoration: none;
+    @extend %fon-normal;
+  }
+}
+
+// стили для блока контент
+
+.content {
+  display: flex;
+  gap: $navGap;
+  width: $widthSite;
+  @include center();
+
+  &__item {
+    width: calc($widthSite / 4);
+    height: 200px;
+    border: $blackBorder;
+  }
+}

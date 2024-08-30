@@ -20,6 +20,7 @@
 
 .product-box {
   @include centerFlex();
+  gap: 30px;
 }
 
 %flex {
@@ -70,12 +71,20 @@
   padding-top: 20px;
   padding-bottom: 20px;
   @extend %flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .header__left {
   display: flex;
   align-items: center;
   gap: 41px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 33px;
 }
 
 .top-head {
