@@ -4,35 +4,6 @@ $widthContent: 1140px;
 $colorSelectSite: #F16D7F;
 $borderSelectSite: 1px solid #EAEAEA;
 
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
-
-body {
-  scroll-behavior: smooth;
-  background: white;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-p,
-li,
-a,
-button {
-  font-family: Lato;
-  font-weight: 400;
-  color: rgb(93, 93, 93);
-}
-
 summary {
   display: block;
 }
@@ -131,7 +102,7 @@ summary::-webkit-details-marker {
   background: #f7f7f7;
   height: 777px;
   margin-bottom: -65px;
-  position: relative;
+  // position: relative;
 }
 
 .productContainer {
@@ -140,10 +111,6 @@ summary::-webkit-details-marker {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
-  &__img {
-    z-index: 0;
-  }
 }
 
 .previous {
