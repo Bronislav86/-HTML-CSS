@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HW3</title>
+		<link rel="stylesheet" href="./style/style.css" />
+	</head>
+	<body>
+		<header class="header center">
+			<div class="header__left">
+				<a href="index.html" class="logo"><img src="./img/mainLogo.webp" alt="mainLogo" /></a>
+				<img src="./img/search.webp" alt="search" />
+			</div>
+			<div class="header__right">
+				<img src="./img/menu.webp" alt="burger-menu" />
+				<img src="./img/user.webp" alt="search" />
+				<img src="./img/basket.webp" alt="search" />
+				<div class="header__sticker">5</div>
+			</div>
+		</header>
+		<div class="top-head center">
+			<h2 class="top-head__heading">SHOPPING CART</h2>
+		</div>
+		<div class="product-box center">
+			<div class="product-box__carts-box">
+				<div class="product-box__carts">
+					<img src="./img/product1.webp" alt="photo of product" />
+					<div class="product-box__description">
+						<h2 class="product-box__heading">MANGO PEOPLE<br />T-SHIRT</h2>
+						<div class="product-box__filter">
+							<h3 class="product-box__text">Price: <span class="product-box__price">$300</span></h3>
+							<h3 class="product-box__text">Color: Red</h3>
+							<h3 class="product-box__text">Size: XI</h3>
+							<h3 class="product-box__text">Quantity:</h3>
+							<input type="text" class="product-box__quantity" placeholder="2" />
+						</div>
+						<div class="product-box__exit">
+							<svg width="18" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="m11.24 9 6.29-6.29c.29-.3.46-.7.46-1.12 0-.42-.17-.83-.46-1.13-.3-.3-.7-.46-1.13-.46-.42 0-.82.16-1.12.46L9 6.75 2.71.46C2.41.16 2.01 0 1.59 0 1.16 0 .76.16.46.46c-.3.3-.46.7-.46 1.13 0 .42.16.82.46 1.12L6.75 9 .46 15.28c-.3.3-.46.7-.46 1.12A1.588 1.588 0 0 0 1.59 18c.42 0 .82-.17 1.12-.47L9 11.24l6.28 6.29a1.583 1.583 0 0 0 2.25 0 1.583 1.583 0 0 0 0-2.25L11.24 9Z"
+									fill="#575757"
+								/>
+							</svg>
+						</div>
+					</div>
+				</div>
+				<div class="product-box__carts">
+					<img src="./img/product2.webp" alt="photo of product" />
+					<div class="product-box__description">
+						<h2 class="product-box__heading">MANGO PEOPLE<br />T-SHIRT</h2>
+						<div class="product-box__filter">
+							<h3 class="product-box__text">Price: <span class="product-box__price">$300</span></h3>
+							<h3 class="product-box__text">Color: Red</h3>
+							<h3 class="product-box__text">Size: XI</h3>
+							<h3 class="product-box__text">Quantity:</h3>
+							<input type="text" class="product-box__quantity" placeholder="2" />
+						</div>
+						<div class="product-box__exit">
+							<svg width="18" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="m11.24 9 6.29-6.29c.29-.3.46-.7.46-1.12 0-.42-.17-.83-.46-1.13-.3-.3-.7-.46-1.13-.46-.42 0-.82.16-1.12.46L9 6.75 2.71.46C2.41.16 2.01 0 1.59 0 1.16 0 .76.16.46.46c-.3.3-.46.7-.46 1.13 0 .42.16.82.46 1.12L6.75 9 .46 15.28c-.3.3-.46.7-.46 1.12A1.588 1.588 0 0 0 1.59 18c.42 0 .82-.17 1.12-.47L9 11.24l6.28 6.29a1.583 1.583 0 0 0 2.25 0 1.583 1.583 0 0 0 0-2.25L11.24 9Z"
+									fill="#575757"
+								/>
+							</svg>
+						</div>
+					</div>
+				</div>
+				<div class="product-box__button-box">
+					<button class="product-box__butt">CLEAR SHOPPING CART</button>
+					<button class="product-box__butt">CONTINUE SHOPPING</button>
+				</div>
+			</div>
+			<div class="product-box__order">
+				<form class="product-box__form">
+					<h2 class="product-box__head">SHIPPING ADRESS</h2>
+					<input class="product-box__input" type="text" placeholder="Bangladesh" />
+					<input class="product-box__input" type="text" placeholder="State" />
+					<input class="product-box__input" type="text" placeholder="Postcode / Zip" />
+					<input class="product-box__submit" type="submit" value="GET A QOUTE" />
+				</form>
+				<div class="product-box__total">
+					<div class="product-box__sum">
+						<div class="product-box__sum-box">
+							<h3 class="product-box__sub-total">SUB TOTAL</h3>
+							<h3 class="product-box__sub-total">$900</h3>
+						</div>
+						<div class="product-box__sum-box">
+							<h2 class="product-box__grand-total">GRAND TOTAL</h2>
+							<h2 class="product-box__grand-total product-box__selectPrice">$900</h2>
+						</div>
+					</div>
+					<button class="product-box__button">PROCEED TO CHECKOUT</button>
+				</div>
+			</div>
+		</div>
+		<section class="blackBlock">
+			<h2 style="display: none">Наши преимущества</h2>
+			<div class="blackBlock__conteiner">
+				<article class="blackBlock__conteiner-article">
+					<img src="./img/delivery.webp" alt="Free delivery" />
+					<h3>Free Delivery</h3>
+					<p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+				</article>
+				<article class="blackBlock__conteiner-article">
+					<img src="./img/discount.webp" alt="Sale&discount" />
+					<h3>Sales &amp;&nbsp;discounts</h3>
+					<p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+				</article>
+				<article class="blackBlock__conteiner-article">
+					<img src="./img/quality.webp" alt="Quality" />
+					<h3>Quality assurance</h3>
+					<p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+				</article>
+			</div>
+		</section>
+		<section class="subscribe">
+			<h2 style="display: none">Подпишитесь на наши новости и акции</h2>
+			<div class="subscribe__background">
+				<div class="subscribe__background__conteiner">
+					<article class="subscribe__background__conteiner-article_1">
+						<h2 style="display: none">Отзывы о нас</h2>
+						<img src="./img/photo.png" alt="Photo" />
+						<p>
+							&laquo;Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi, a&nbsp;pulvinar purus
+							condimentum&raquo;
+						</p>
+					</article>
+					<article class="subscribe__background__conteiner-article_2">
+						<h2 style="display: none">Форма для подписки</h2>
+						<h2>SUBSCRIBE</h2>
+						<h3>FOR OUR NEWLETTER AND PROMOTION</h3>
+						<form class="from">
+							<input class="input__email" type="email" placeholder="Enter Your Email" />
+							<button class="input__submit" type="submit">Subscribe</button>
+						</form>
+					</article>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<h2 style="display: none">Ссылки на наши соцсети</h2>
+			<section class="footer__conteiner">
+				<div class="footer__conteiner-leftBox">
+					<h4>&copy;&nbsp;2022 Brand All Rights Reserved.</h4>
+				</div>
+				<div class="footer__conteiner-rightBox">
+					<div class="footer__conteiner-rightBox__icon">
+						<!--  пинтерест -->
+						<svg width="13" height="16" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_190_1618)">
+								<path
+									d="M6.74.203C3.556.203.408 2.341.408 5.8c0 2.2 1.23 3.45 1.974 3.45.308 0 .484-.863.484-1.106 0-.29-.735-.91-.735-2.119 0-2.513 1.9-4.294 4.358-4.294 2.114 0 3.678 1.21 3.678 3.431 0 1.66-.661 4.772-2.803 4.772-.773 0-1.434-.562-1.434-1.368 0-1.182.82-2.325.82-3.544 0-2.069-2.915-1.694-2.915.806 0 .525.065 1.106.298 1.584-.428 1.857-1.304 4.622-1.304 6.535 0 .59.084 1.172.14 1.762.105.12.053.107.214.047 1.564-2.156 1.509-2.578 2.216-5.4.382.732 1.37 1.125 2.151 1.125 3.297 0 4.777-3.234 4.777-6.15 0-3.103-2.663-5.128-5.587-5.128Z"
+								/>
+							</g>
+						</svg>
+					</div>
+					<div class="footer__conteiner-rightBox__icon">
+						<!--  твиттер -->
+						<svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_190_1614)">
+								<path
+									d="M14.418 4.741c.01.142.01.284.01.426 0 4.335-3.277 9.33-9.267 9.33a9.16 9.16 0 0 1-5.002-1.472c.262.03.515.04.787.04a6.495 6.495 0 0 0 4.044-1.4A3.266 3.266 0 0 1 1.944 9.39c.202.03.404.05.615.05.293 0 .585-.04.857-.111A3.274 3.274 0 0 1 .805 6.112V6.07c.433.244.937.396 1.472.416a3.283 3.283 0 0 1-1.452-2.73c0-.61.161-1.168.444-1.656a9.238 9.238 0 0 0 6.715 3.432 3.727 3.727 0 0 1-.08-.751c0-1.807 1.452-3.28 3.257-3.28a3.24 3.24 0 0 1 2.38 1.036 6.386 6.386 0 0 0 2.067-.792 3.266 3.266 0 0 1-1.432 1.807 6.494 6.494 0 0 0 1.876-.507 7.029 7.029 0 0 1-1.634 1.695Z"
+								/>
+							</g>
+						</svg>
+					</div>
+				</div>
+			</section>
+		</footer>
+	</body>
+</html>
