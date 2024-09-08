@@ -147,25 +147,33 @@
     }
 
     &__quantity {
+      width: 9px;
+      color: rgb(101, 101, 101);
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 22px;
       position: absolute;
       border: 1px solid rgb(234, 234, 234);
       padding: 1px 17px 2px 17px;
       right: 193px;
       bottom: 62px;
+
+      &:focus {
+        outline: 0;
+      }
     }
 
-    &__text2 {
-      color: rgb(101, 101, 101);
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 22px;
-    }
+
 
     &__exit {
       position: absolute;
       top: 28px;
       right: 22px;
       cursor: pointer;
+    }
+
+    &__exit:hover path {
+      fill: $colorSelectSite;
     }
 
     &__button-box {
@@ -206,13 +214,36 @@
     }
 
     &__input {
-      color: $colorText;
-      font-size: 13px;
-      font-weight: 300;
-      line-height: 16px;
-      text-align: left;
       border: 1px solid rgb(164, 164, 164);
       padding: 13px 16px 15px 16px;
+
+      &::placeholder {
+        color: rgb(34, 34, 34);
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 16px;
+        text-align: left;
+      }
+
+      &:focus {
+        outline: 0;
+      }
+
+      &:focus::-webkit-input-placeholder {
+        color: rgb(177, 177, 177);
+      }
+
+      &:focus::-moz-placeholder {
+        color: rgb(177, 177, 177);
+      }
+
+      &:focus:-moz-placeholder {
+        color: rgb(177, 177, 177);
+      }
+
+      &:focus:-ms-input-placeholder {
+        color: rgb(177, 177, 177);
+      }
     }
 
     &__submit {
