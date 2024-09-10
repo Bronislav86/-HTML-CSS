@@ -1,0 +1,48 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.item {
+  flex-grow: 1;
+  flex-basis: 100px;
+  height: 100px;
+  border: 1px solid #000;
+}
+
+.content_2 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+.content_2 .item2 {
+  flex-shrink: 1;
+  width: 250px;
+  height: 100px;
+  border: 1px solid #000;
+}
+.content_2 .item_2 {
+  flex-shrink: 2;
+}
+
+.content3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center;
+  grid-auto-flow: dense;
+  gap: 16px;
+  max-width: 1000px;
+  margin: auto;
+  padding-left: calc(50% - 500px);
+  padding-rigth: calc(50% - 500px);
+}
+.content3 .item3 {
+  border: 1px solid #000;
+  min-height: 100px;
+}
+.content3 .item3_3 {
+  grid-column: span 2;
+  grid-row: span 2;
+}/*# sourceMappingURL=style3.css.map */
