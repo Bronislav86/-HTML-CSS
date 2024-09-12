@@ -37,10 +37,14 @@
 				<input class="registration__input-text" type="text" placeholder="First Name" />
 				<input class="registration__input-text" type="text" placeholder="Last Name" />
 				<div class="registration__male-box">
-					<input class="registration__chekbox" type="checkbox" name="Male" id="male" />
-					<label class="registration__label registration__label_left" for="male">Male</label>
-					<input class="registration__chekbox" type="checkbox" name="female" id="female" />
-					<label class="registration__label registration__label_right" for="female">Female</label>
+					<div>
+						<input class="registration__chekbox" type="radio" name="Male" id="male" value="male" checked />
+						<label class="registration__label registration__label_left" for="male">Male</label>
+					</div>
+					<div>
+						<input class="registration__chekbox" type="radio" name="Male" id="female" value="female" />
+						<label class="registration__label registration__label_right" for="female">Female</label>
+					</div>
 				</div>
 				<h2 class="registration__heading">Login details</h2>
 				<input class="registration__input-text" type="email" name="email" id="" placeholder="Email" />
