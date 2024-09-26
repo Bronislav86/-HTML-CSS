@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HW4</title>
+		<link rel="stylesheet" href="./styles/style5.css" />
+	</head>
+	<body>
+		<div class="box-content">
+			<header class="header center">
+				<div class="header__left">
+					<a href="index.html" class="logo"><img src="./img/mainLogo.webp" alt="mainLogo" /></a>
+					<img src="./img/search.webp" alt="search" />
+				</div>
+				<div class="header__right">
+					<label for="menu">
+						<img src="./img/menu.webp" alt="burger-menu" />
+					</label>
+					<input type="checkbox" id="menu" />
+					<nav class="menu">
+						<h2 class="menu__heading">MENU</h2>
+						<div class="menu__items">
+							<h2 class="menu__items-pink_item">MAN</h2>
+							<ul class="menu__li-box">
+								<li class="menu__li"><a class="menu__a" href="#">Accessories</a></li>
+								<li class="menu__li"><a class="menu__a" href="#">Bags</a></li>
+								<li class="menu__li"><a class="menu__a" href="#">Denim</a></li>
+								<li class="menu__li"><a class="menu__a" href="#">T-Shirts</a></li>
+							</ul>
+						</div>
+						<div class="menu__active_items">
+							<div class="menu__items">
+								<h2 class="menu__items-pink_item">WOMAN</h2>
+								<ul class="menu__li-box">
+									<li class="menu__li"><a class="menu__a" href="#">Accessories</a></li>
+									<li class="menu__li"><a class="menu__a" href="#">Jackets &amp;&nbsp;Coats</a></li>
+									<li class="menu__li"><a class="menu__a" href="#">Polos</a></li>
+									<li class="menu__li"><a class="menu__a" href="#">T-Shirts</a></li>
+									<li class="menu__li"><a class="menu__a" href="#">Shirts</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="menu__active_items">
+							<div class="menu__items">
+								<h2 class="menu__items-pink_item">KIDS</h2>
+								<ul class="menu__li-box">
+									<li class="menu__li"><a class="menu__a" href="#">Accessories</a></li>
+									<li class="menu__li"><a class="menu__a" href="#">Jackets &amp;&nbsp;Coats</a></li>
+									<li class="menu__li"><a class="menu__a" href="#">Polos</a></li>
+									<li class="menu__li"><a class="menu__a" href="#">T-Shirts</a></li>
+									<li class="menu__li"><a class="menu__a" href="#">Shirts</a></li>
+									<li class="menu__li"><a class="menu__a" href="#">Bags</a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+					<a class="hidden-buttons" href="#"><img src="./img/user.webp" alt="profile" /></a>
+					<a class="hidden-buttons" href="./index4.html	"><img src="./img/basket.webp" alt="basket" /></a>
+					<div class="header__sticker">5</div>
+				</div>
+			</header>
+			<div class="top-head center">
+				<h2 class="top-head__heading">REGISTRATION</h2>
+			</div>
+			<div class="registration center">
+				<form action="#" class="registration__form">
+					<h2 class="registration__heading">Your Name</h2>
+					<input class="registration__input-text" type="text" placeholder="First Name" />
+					<input class="registration__input-text" type="text" placeholder="Last Name" />
+					<div class="registration__male-box">
+						<div>
+							<input class="registration__chekbox" type="radio" name="Male" id="male" value="male" checked />
+							<label class="registration__label registration__label_left" for="male">Male</label>
+						</div>
+						<div>
+							<input class="registration__chekbox" type="radio" name="Male" id="female" value="female" />
+							<label class="registration__label registration__label_right" for="female">Female</label>
+						</div>
+					</div>
+					<h2 class="registration__heading">Login details</h2>
+					<input class="registration__input-text" type="email" name="email" id="" placeholder="Email" />
+					<input class="registration__input-text" type="password" placeholder="Password" />
+					<p class="registration__text">
+						Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters
+					</p>
+					<button class="registration__button">
+						JOIN NOW
+						<svg width="17.001" height="9.919" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M11.54.2c.06-.06.14-.12.23-.15.08-.04.17-.05.27-.05.09 0 .18.01.27.05.08.03.16.09.23.15l4.25 4.25c.06.07.12.15.15.23a.66.66 0 0 1 0 .55c-.03.08-.09.16-.15.23l-4.25 4.25a.72.72 0 0 1-.5.2.703.703 0 0 1-.71-.71c0-.18.07-.36.21-.5l3.74-3.75-3.74-3.74a.868.868 0 0 1-.16-.23.868.868 0 0 1-.05-.28c0-.09.02-.18.05-.27.04-.08.09-.16.16-.23Z"
+								fill="#FFF"
+								fill-rule="evenodd"
+							/>
+							<path
+								d="M0 4.95c0-.18.07-.36.2-.5.14-.13.32-.2.5-.2h14.88c.19 0 .37.07.5.2.13.14.21.32.21.5 0 .19-.08.37-.21.51-.13.13-.31.2-.5.2H.7c-.18 0-.36-.07-.5-.2a.744.744 0 0 1-.2-.51Z"
+								fill="#FFF"
+								fill-rule="evenodd"
+							/>
+						</svg>
+					</button>
+				</form>
+				<div class="registration__discription">
+					<h2 class="registration__notation registration__notation_title">LOYALTY HAS ITS PERKS</h2>
+					<p class="registration__notation">
+						Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as
+						soon as you join:
+					</p>
+					<ul class="registration__list">
+						<li class="registration__notation registration__li">15% off welcome offer</li>
+						<li class="registration__notation registration__li">Free shipping, returns and exchanges on all orders</li>
+						<li class="registration__notation registration__li">$10 off a purchase on your birthday</li>
+						<li class="registration__notation registration__li">Early access to products</li>
+						<li class="registration__notation registration__li">Exclusive offers & rewards</li>
+					</ul>
+				</div>
+			</div>
+			<section class="subscribe">
+				<h2 style="display: none">Подпишитесь на наши новости и акции</h2>
+				<div class="subscribe__background">
+					<div class="subscribe__background_conteiner center">
+						<article class="subscribe__background_conteiner-article_1">
+							<h2 style="display: none">Отзывы о нас</h2>
+							<img src="./img/photo.png" alt="Photo" />
+							<p>
+								&laquo;Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi, a&nbsp;pulvinar purus
+								condimentum&raquo;
+							</p>
+						</article>
+						<article class="subscribe__background_conteiner-article_2">
+							<h2 style="display: none">Форма для подписки</h2>
+							<h2>SUBSCRIBE</h2>
+							<h3>FOR OUR NEWLETTER AND PROMOTION</h3>
+							<form class="from">
+								<input class="input__email" type="email" placeholder="Enter Your Email" />
+								<button class="input__submit" type="submit">Subscribe</button>
+							</form>
+						</article>
+					</div>
+				</div>
+			</section>
+			<footer class="footer center">
+				<h2 style="display: none">Ссылки на наши соцсети</h2>
+				<section class="footer__conteiner">
+					<div class="footer__conteiner-leftBox">
+						<h4>&copy;&nbsp;2022 Brand All Rights Reserved.</h4>
+					</div>
+					<div class="footer__conteiner-rightBox">
+						<div class="footer__conteiner-rightBox__icon">
+							<!--  пинтерест -->
+							<svg width="13" height="16" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_190_1618)">
+									<path
+										d="M6.74.203C3.556.203.408 2.341.408 5.8c0 2.2 1.23 3.45 1.974 3.45.308 0 .484-.863.484-1.106 0-.29-.735-.91-.735-2.119 0-2.513 1.9-4.294 4.358-4.294 2.114 0 3.678 1.21 3.678 3.431 0 1.66-.661 4.772-2.803 4.772-.773 0-1.434-.562-1.434-1.368 0-1.182.82-2.325.82-3.544 0-2.069-2.915-1.694-2.915.806 0 .525.065 1.106.298 1.584-.428 1.857-1.304 4.622-1.304 6.535 0 .59.084 1.172.14 1.762.105.12.053.107.214.047 1.564-2.156 1.509-2.578 2.216-5.4.382.732 1.37 1.125 2.151 1.125 3.297 0 4.777-3.234 4.777-6.15 0-3.103-2.663-5.128-5.587-5.128Z"
+									/>
+								</g>
+							</svg>
+						</div>
+						<div class="footer__conteiner-rightBox__icon">
+							<!--  твиттер -->
+							<svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_190_1614)">
+									<path
+										d="M14.418 4.741c.01.142.01.284.01.426 0 4.335-3.277 9.33-9.267 9.33a9.16 9.16 0 0 1-5.002-1.472c.262.03.515.04.787.04a6.495 6.495 0 0 0 4.044-1.4A3.266 3.266 0 0 1 1.944 9.39c.202.03.404.05.615.05.293 0 .585-.04.857-.111A3.274 3.274 0 0 1 .805 6.112V6.07c.433.244.937.396 1.472.416a3.283 3.283 0 0 1-1.452-2.73c0-.61.161-1.168.444-1.656a9.238 9.238 0 0 0 6.715 3.432 3.727 3.727 0 0 1-.08-.751c0-1.807 1.452-3.28 3.257-3.28a3.24 3.24 0 0 1 2.38 1.036 6.386 6.386 0 0 0 2.067-.792 3.266 3.266 0 0 1-1.432 1.807 6.494 6.494 0 0 0 1.876-.507 7.029 7.029 0 0 1-1.634 1.695Z"
+									/>
+								</g>
+							</svg>
+						</div>
+					</div>
+				</section>
+			</footer>
+		</div>
+	</body>
+</html>
